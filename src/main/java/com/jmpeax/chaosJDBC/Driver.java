@@ -12,9 +12,6 @@ import java.util.logging.Logger;
 public class Driver implements java.sql.Driver {
 
 
-  /**
-   *
-   */
   private static final String URL_PREFIX = "jdbc:chaos:";
   private static final Driver INSTANCE = new Driver();
 
